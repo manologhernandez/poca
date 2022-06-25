@@ -1,9 +1,12 @@
 <template>
-  <div class="container">Hello World</div>
+  <div class="container">
+    <PocaWall />
+  </div>
 </template>
 
 <script>
-export default {}
+import PocaWall from '~/components/PocaWall.vue'
+export default { components: { PocaWall } }
 </script>
 
 <style>
@@ -12,8 +15,6 @@ export default {}
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .title {
