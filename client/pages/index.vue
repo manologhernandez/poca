@@ -1,28 +1,5 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h2 class="subtitle">MEVN starter template based on Nuxt-js</h2>
-      <div class="links">
-        <a
-          href="https://mevn.madlabs.xyz"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/madlabsinc/mevn-cli"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <div class="container">Hello World</div>
 </template>
 
 <script>

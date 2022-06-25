@@ -3,7 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
- mode: 'universal',
+  mode: 'universal',
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -44,22 +44,25 @@ export default {
    ** Nuxt.js dev-modules
    ** See https://nuxtjs.org/api/configuration-modules/#buildmodules
    */
-  buildModules: [
-    '@nuxtjs/eslint-module',
-  ],
+  buildModules: ['@nuxtjs/eslint-module'],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://nuxtjs.org/api/configuration-modules/
+    'bootstrap-vue/nuxt',
   ],
+  bootstrapVue: {
+    // Install the `IconsPlugin` plugin (in addition to `BootstrapVue` plugin)
+    icons: true,
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
     /*
-    ** You can extend webpack config here
-    */
+     ** You can extend webpack config here
+     */
   },
 }
