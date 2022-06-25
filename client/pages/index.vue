@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <PocaWall />
   </div>
 </template>
@@ -11,9 +11,9 @@ export default { components: { PocaWall } }
 
 <style>
 .container {
-  margin: 0 auto;
+  margin: 0;
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 

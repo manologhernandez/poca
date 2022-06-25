@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
-    <div class="row row-cols-8 no-gutters">
-      <div class="col-sm" v-for="index in 8" :key="index">
+  <div class="pocawall">
+    <div v-for="rowindex in 3" :key="rowindex" class="row no-gutter poca-row">
+      <div v-for="index in 12" :key="index" class="col-sm-1">
         <PocaSmall />
       </div>
     </div>
@@ -13,4 +13,8 @@ import PocaSmall from './PocaSmall.vue'
 export default { components: { PocaSmall } }
 </script>
 
-<style scoped></style>
+<style scoped>
+.pocawall {
+  padding: 15px;
+}
+</style>
